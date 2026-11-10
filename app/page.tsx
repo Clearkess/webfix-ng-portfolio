@@ -1,6 +1,5 @@
-from pathlib import Path
 
-content = r'''import {
+import {
   ArrowUpRight,
   Code2,
   Smartphone,
@@ -534,8 +533,3 @@ export default function Home() {
     </main>
   );
 }
-'''
-
-path = Path("/mnt/data/page.tsx")
-path.write_text(content, encoding="utf-8")
-print(f"Created {path} ({path.stat().st_size:,} bytes)")
