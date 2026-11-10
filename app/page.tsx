@@ -7,7 +7,7 @@ import {
   Database,
   Globe,
   Layers,
-  Github,
+  MessageCircle,
   CheckCircle2,
 } from "lucide-react";
 
@@ -294,15 +294,17 @@ export default function Home() {
               in mind? Let's connect and discuss your project.
             </p>
 
-            <a
-              href="https://github.com/Clearkess"
-              target="_blank"
-              rel="noreferrer"
-              className="button button-primary"
-            >
-              <Github size={18} /> Connect on GitHub{" "}
-              <ArrowUpRight size={17} />
-            </a>
+            
+<a
+  href="https://wa.me/2347056606129?text=Hello%20WebFix%20NG%2C%20I%20am%20interested%20in%20your%20software%20development%20services.%20Please%20share%20your%20services%20and%20quotation%20process."
+  target="_blank"
+  rel="noreferrer"
+  className="button button-primary"
+>
+  <MessageCircle size={18} /> Hire WebFix NG{" "}
+  <ArrowUpRight size={17} />
+</a>
+
           </div>
         </div>
       </section>
