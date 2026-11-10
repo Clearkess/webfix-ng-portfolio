@@ -159,6 +159,130 @@ export default function Home() {
         </div>
       </section>
 
+<section className="section" id="pricing">
+  <div className="container">
+    <div className="section-heading">
+      <div className="eyebrow">Services & Pricing</div>
+      <h2>Professional solutions. Transparent starting prices.</h2>
+      <p>
+        Choose a package that fits your business goals.
+        Every project can be customised to your requirements.
+      </p>
+    </div>
+
+    <div className="grid">
+      <article className="card">
+        <div className="eyebrow">Starter Package</div>
+        <h3>Business Website</h3>
+        <p>Starting from</p>
+        <h2>₦150,000</h2>
+        <p>
+          A professional online presence for small businesses
+          and startups.
+        </p>
+        <div>
+          <span className="tag">Responsive design</span>
+          <span className="tag">Up to 5 pages</span>
+          <span className="tag">Contact form</span>
+          <span className="tag">Basic SEO setup</span>
+        </div>
+        <a
+          className="button button-primary"
+          style={{ marginTop: 24 }}
+          href="https://wa.me/2347056606129?text=Hello%20WebFix%20NG%2C%20I%20am%20interested%20in%20the%20Business%20Website%20package%20starting%20at%20NGN150000."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MessageCircle size={17} /> Get a Quote
+        </a>
+      </article>
+
+      <article className="card">
+        <div className="eyebrow">Growth Package</div>
+        <h3>Professional Website</h3>
+        <p>Starting from</p>
+        <h2>₦250,000</h2>
+        <p>
+          An enhanced website for growing businesses
+          that need more features.
+        </p>
+        <div>
+          <span className="tag">Custom design</span>
+          <span className="tag">Up to 10 pages</span>
+          <span className="tag">Advanced forms</span>
+          <span className="tag">SEO setup</span>
+        </div>
+        <a
+          className="button button-primary"
+          style={{ marginTop: 24 }}
+          href="https://wa.me/2347056606129?text=Hello%20WebFix%20NG%2C%20I%20am%20interested%20in%20the%20Professional%20Website%20package%20starting%20at%20NGN250000."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MessageCircle size={17} /> Get a Quote
+        </a>
+      </article>
+
+      <article className="card">
+        <div className="eyebrow">Commerce Package</div>
+        <h3>E-commerce Website</h3>
+        <p>Starting from</p>
+        <h2>₦350,000</h2>
+        <p>
+          An online store for selling products and
+          managing customer orders.
+        </p>
+        <div>
+          <span className="tag">Product catalogue</span>
+          <span className="tag">Shopping cart</span>
+          <span className="tag">Checkout integration</span>
+          <span className="tag">Order management</span>
+        </div>
+        <a
+          className="button button-primary"
+          style={{ marginTop: 24 }}
+          href="https://wa.me/2347056606129?text=Hello%20WebFix%20NG%2C%20I%20am%20interested%20in%20the%20E-commerce%20Website%20package%20starting%20at%20NGN350000."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MessageCircle size={17} /> Get a Quote
+        </a>
+      </article>
+
+      <article className="card">
+        <div className="eyebrow">Custom Package</div>
+        <h3>Web Applications</h3>
+        <p>Starting from</p>
+        <h2>₦500,000</h2>
+        <p>
+          Tailored web applications built around
+          your business processes.
+        </p>
+        <div>
+          <span className="tag">Custom functionality</span>
+          <span className="tag">Database integration</span>
+          <span className="tag">User authentication</span>
+          <span className="tag">Admin dashboard</span>
+        </div>
+        <a
+          className="button button-primary"
+          style={{ marginTop: 24 }}
+          href="https://wa.me/2347056606129?text=Hello%20WebFix%20NG%2C%20I%20would%20like%20a%20quotation%20for%20a%20custom%20web%20application%20starting%20at%20NGN500000."
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MessageCircle size={17} /> Get a Quote
+        </a>
+      </article>
+    </div>
+
+    <p style={{ color: "var(--muted)", marginTop: 25, fontSize: 13 }}>
+      All prices are starting estimates. Final quotations depend
+      on project scope, features, integrations and requirements.
+    </p>
+  </div>
+</section>
+
       <section className="section" id="projects">
         <div className="container">
           <div className="section-heading">
